@@ -1,0 +1,40 @@
+.header{
+    background: linear-gradient(to right, #082cb6,#2d92fa);
+    position: relative;
+    .positionimg{
+        position:absolute;
+        bottom:-28px;
+        left:50%;
+    }
+    .navbar-nav{
+        a{
+            font-size: 13px;
+            color:#fff;
+        }
+    }
+    .flex{
+        div{
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0;
+            &.content{
+                h1{
+                    font-size: 29px;
+                    color: #fff;
+                    line-height: 35px;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 21px;
+                    color: #fff;
+                }
+                button{
+                    width: 25%;
+    padding: 3px;
+    font-size: 15px;
+                }
+            }
+        }
+    }
+    
+}
